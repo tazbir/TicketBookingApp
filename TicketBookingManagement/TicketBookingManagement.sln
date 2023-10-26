@@ -16,6 +16,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketManagement.Domain", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketManagement.Application", "TicketManagement.Application\TicketManagement.Application.csproj", "{67569C9B-5D6A-4808-801F-33491A519981}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketManagement.Persistence", "TicketManagement.Persistence\TicketManagement.Persistence.csproj", "{CDE04DE1-37DA-4E0C-89F2-0D77DD01A097}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,6 +30,7 @@ Global
 		{1311FFE2-F40D-48A3-95C7-AE25F97CD8B3} = {3F879033-E768-4E35-B164-059FDA6AC37B}
 		{9C053423-F830-4031-BCC8-E6F3E9B0E045} = {F2082CC1-845D-4E14-9FA5-25D3C642B132}
 		{67569C9B-5D6A-4808-801F-33491A519981} = {F2082CC1-845D-4E14-9FA5-25D3C642B132}
+		{CDE04DE1-37DA-4E0C-89F2-0D77DD01A097} = {D4D264F1-A4D3-463C-8107-378F0C68ED11}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{9C053423-F830-4031-BCC8-E6F3E9B0E045}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -38,5 +41,9 @@ Global
 		{67569C9B-5D6A-4808-801F-33491A519981}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67569C9B-5D6A-4808-801F-33491A519981}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67569C9B-5D6A-4808-801F-33491A519981}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDE04DE1-37DA-4E0C-89F2-0D77DD01A097}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDE04DE1-37DA-4E0C-89F2-0D77DD01A097}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDE04DE1-37DA-4E0C-89F2-0D77DD01A097}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDE04DE1-37DA-4E0C-89F2-0D77DD01A097}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
