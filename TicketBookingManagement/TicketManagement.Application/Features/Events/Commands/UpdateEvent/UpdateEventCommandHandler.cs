@@ -1,5 +1,4 @@
 ﻿using AutoMapper;
-using GloboTicket.TicketManagement.Application.Features.Events.Commands.UpdateEvent;
 using MediatR;
 using TicketManagement.Application.Contracts.Persistence;
 using TicketManagement.Application.Exceptions;
