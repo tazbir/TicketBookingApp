@@ -1,0 +1,11 @@
+/home/tazbir/Experiments/TicketBooking/TicketBookingManagement/TicketManagement.Domain/bin/Debug/net7.0/TicketManagement.Domain.deps.json
+/home/tazbir/Experiments/TicketBooking/TicketBookingManagement/TicketManagement.Domain/bin/Debug/net7.0/TicketManagement.Domain.dll
+/home/tazbir/Experiments/TicketBooking/TicketBookingManagement/TicketManagement.Domain/bin/Debug/net7.0/TicketManagement.Domain.pdb
+/home/tazbir/Experiments/TicketBooking/TicketBookingManagement/TicketManagement.Domain/obj/Debug/net7.0/TicketManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/tazbir/Experiments/TicketBooking/TicketBookingManagement/TicketManagement.Domain/obj/Debug/net7.0/TicketManagement.Domain.AssemblyInfoInputs.cache
+/home/tazbir/Experiments/TicketBooking/TicketBookingManagement/TicketManagement.Domain/obj/Debug/net7.0/TicketManagement.Domain.AssemblyInfo.cs
+/home/tazbir/Experiments/TicketBooking/TicketBookingManagement/TicketManagement.Domain/obj/Debug/net7.0/TicketManagement.Domain.csproj.CoreCompileInputs.cache
+/home/tazbir/Experiments/TicketBooking/TicketBookingManagement/TicketManagement.Domain/obj/Debug/net7.0/TicketManagement.Domain.dll
+/home/tazbir/Experiments/TicketBooking/TicketBookingManagement/TicketManagement.Domain/obj/Debug/net7.0/refint/TicketManagement.Domain.dll
+/home/tazbir/Experiments/TicketBooking/TicketBookingManagement/TicketManagement.Domain/obj/Debug/net7.0/TicketManagement.Domain.pdb
+/home/tazbir/Experiments/TicketBooking/TicketBookingManagement/TicketManagement.Domain/obj/Debug/net7.0/ref/TicketManagement.Domain.dll

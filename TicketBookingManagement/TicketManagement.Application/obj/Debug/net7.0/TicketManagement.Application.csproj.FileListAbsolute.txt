@@ -1,0 +1,15 @@
+/home/tazbir/Experiments/TicketBooking/TicketBookingManagement/TicketManagement.Application/bin/Debug/net7.0/TicketManagement.Application.deps.json
+/home/tazbir/Experiments/TicketBooking/TicketBookingManagement/TicketManagement.Application/bin/Debug/net7.0/TicketManagement.Application.dll
+/home/tazbir/Experiments/TicketBooking/TicketBookingManagement/TicketManagement.Application/bin/Debug/net7.0/TicketManagement.Application.pdb
+/home/tazbir/Experiments/TicketBooking/TicketBookingManagement/TicketManagement.Application/bin/Debug/net7.0/TicketManagement.Domain.dll
+/home/tazbir/Experiments/TicketBooking/TicketBookingManagement/TicketManagement.Application/bin/Debug/net7.0/TicketManagement.Domain.pdb
+/home/tazbir/Experiments/TicketBooking/TicketBookingManagement/TicketManagement.Application/obj/Debug/net7.0/TicketManagement.Application.csproj.AssemblyReference.cache
+/home/tazbir/Experiments/TicketBooking/TicketBookingManagement/TicketManagement.Application/obj/Debug/net7.0/TicketManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/tazbir/Experiments/TicketBooking/TicketBookingManagement/TicketManagement.Application/obj/Debug/net7.0/TicketManagement.Application.AssemblyInfoInputs.cache
+/home/tazbir/Experiments/TicketBooking/TicketBookingManagement/TicketManagement.Application/obj/Debug/net7.0/TicketManagement.Application.AssemblyInfo.cs
+/home/tazbir/Experiments/TicketBooking/TicketBookingManagement/TicketManagement.Application/obj/Debug/net7.0/TicketManagement.Application.csproj.CoreCompileInputs.cache
+/home/tazbir/Experiments/TicketBooking/TicketBookingManagement/TicketManagement.Application/obj/Debug/net7.0/TicketManagement.Application.csproj.CopyComplete
+/home/tazbir/Experiments/TicketBooking/TicketBookingManagement/TicketManagement.Application/obj/Debug/net7.0/TicketManagement.Application.dll
+/home/tazbir/Experiments/TicketBooking/TicketBookingManagement/TicketManagement.Application/obj/Debug/net7.0/refint/TicketManagement.Application.dll
+/home/tazbir/Experiments/TicketBooking/TicketBookingManagement/TicketManagement.Application/obj/Debug/net7.0/TicketManagement.Application.pdb
+/home/tazbir/Experiments/TicketBooking/TicketBookingManagement/TicketManagement.Application/obj/Debug/net7.0/ref/TicketManagement.Application.dll
