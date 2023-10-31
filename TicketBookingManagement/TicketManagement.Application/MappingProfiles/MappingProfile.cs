@@ -1,4 +1,5 @@
 using AutoMapper;
+using TicketManagement.Application.Features.Categories.Commands.CreateCategory;
 using TicketManagement.Application.Features.Categories.Queries.GetCategoriesList;
 using TicketManagement.Application.Features.Categories.Queries.GetCategoriesListWithEvents;
 using TicketManagement.Application.Features.Events;
@@ -21,7 +22,8 @@ public class MappingProfile:Profile
 
         CreateMap<Category, CategoryDto>();
         CreateMap<Category, CategoryListVm>();
-        CreateMap<Category, CategoryListVm>();
         CreateMap<Category, CategoryEventListVm>();
+        CreateMap<Category, CreateCategoryCommand>();
+        CreateMap<Category, CreateCategoryDto>();
     }
 }
