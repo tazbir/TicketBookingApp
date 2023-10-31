@@ -15,7 +15,7 @@ namespace TicketManagement.Application.Features.Events.Commands.DeleteEvent
             _eventRepository = eventRepository;
         }
 
-        public async Task<Unit> Handle(DeleteEventCommand request, CancellationToken cancellationToken)
+        public async Task Handle(DeleteEventCommand request, CancellationToken cancellationToken)
         {
             var eventToDelete = await _eventRepository.GetByIdAsync(request.EventId);
 
@@ -25,8 +25,6 @@ namespace TicketManagement.Application.Features.Events.Commands.DeleteEvent
             }
 
             await _eventRepository.DeleteAsync(eventToDelete);
-
-            return Unit.Value;
         }
     }
 }

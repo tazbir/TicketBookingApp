@@ -1,7 +1,6 @@
 ﻿using FluentValidation;
-using TicketManagement.Application.Features.Events.Commands.UpdateEvent;
 
-namespace GloboTicket.TicketManagement.Application.Features.Events.Commands.UpdateEvent
+namespace TicketManagement.Application.Features.Events.Commands.UpdateEvent
 {
     public class UpdateEventCommandValidator : AbstractValidator<UpdateEventCommand>
     {
