@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using TicketManagement.Application.Contracts;
 using TicketManagement.Domain.Common;
 using TicketManagement.Domain.Entities;
 
@@ -6,10 +7,18 @@ namespace TicketManagement.Persistence;
 
 public class TicketManagementDbContext: DbContext
 {
+    private readonly ILoggedInUserService _loggedInUserService;
+
     public TicketManagementDbContext(DbContextOptions<TicketManagementDbContext> options)
            : base(options)
         {
         }
+    
+    public TicketManagementDbContext(DbContextOptions<TicketManagementDbContext> options, ILoggedInUserService loggedInUserService)
+        : base(options)
+    {
+        _loggedInUserService = loggedInUserService;
+    }
 
 
         public DbSet<Event> Events { get; set; }
@@ -185,9 +194,11 @@ public class TicketManagementDbContext: DbContext
                 {
                     case EntityState.Added:
                         entry.Entity.CreatedDate = DateTime.Now;
+                        entry.Entity.CreatedBy = _loggedInUserService.UserId;
                         break;
                     case EntityState.Modified:
                         entry.Entity.LastModifiedDate = DateTime.Now;
+                        entry.Entity.LastModifiedBy = _loggedInUserService.UserId;
                         break;
                 }
             }

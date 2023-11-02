@@ -1,7 +1,9 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
+using TicketManagement.Api.Services;
 using TicketManagement.Api.Utility;
 using TicketManagement.Application;
+using TicketManagement.Application.Contracts;
 using TicketManagement.Infrastructure;
 using TicketManagement.Persistence;
 
@@ -16,6 +18,8 @@ public static class StartupExtensions
         builder.Services.AddInfrastructureServices(builder.Configuration);
         builder.Services.AddPersistenceServices(builder.Configuration);
 
+        builder.Services.AddScoped<ILoggedInUserService, LoggedInUserService>();
+        builder.Services.AddHttpContextAccessor();
         builder.Services.AddControllers();
 
         builder.Services.AddCors(options =>
@@ -34,6 +38,8 @@ public static class StartupExtensions
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "Ticket Management API");
             });
         }
+        app.UseAuthentication();
+        app.UseAuthorization();
         app.UseHttpsRedirection();
         app.UseRouting();
         app.UseCors("Open");
