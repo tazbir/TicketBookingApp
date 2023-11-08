@@ -24,7 +24,7 @@ public static class StartupExtensions
         builder.Services.AddControllers();
 
         builder.Services.AddCors(options =>
-            options.AddPolicy("Open", builder => builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod()));
+            options.AddPolicy("Open", bldr => bldr.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod()));
 
         return builder.Build();
     }
