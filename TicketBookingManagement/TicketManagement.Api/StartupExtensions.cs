@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
+using TicketManagement.Api.Middleware;
 using TicketManagement.Api.Services;
 using TicketManagement.Api.Utility;
 using TicketManagement.Application;
@@ -42,6 +43,7 @@ public static class StartupExtensions
         app.UseAuthorization();
         app.UseHttpsRedirection();
         app.UseRouting();
+        app.UseCustomExceptionHandler();
         app.UseCors("Open");
         app.MapControllers();
         return app;
